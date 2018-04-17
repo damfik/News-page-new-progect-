@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>News Reporter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="header">
+
+			<div class="header-top">
+				<img src="./image/5.png" class="h_icon">	
+      		</div>
+        
+	      <div class="menu" id="navHeaderMenu">
+	      	 <!--  <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BD_%D0%94%D0%BE%D1%83" target="_blank">Home</a>
+	      	<a href="https://en.wikipedia.org/wiki/The_Areas_of_My_Expertise" target="_blank">About</a>
+	      	<a href="http://www.nvidia.com.ua/object/geforce-experience-ru.html" target="_blank">Contact us</a>
+	      	<a href="https://www.theatlantic.com/education/" target="_blank">Subscribe</a>
+	      	<a href="https://en.wikipedia.org/wiki/The_Areas_of_My_Expertise" target="_blank">Login</a>  -->
+	      </div>
+
+	      <div class="search-and-social">
+	      	<div class="social-networks" id="socialNetwork">
+	        <!--	<img src="./image/2.png" class="twitter_icon">
+	        	<img src="./image/3.png" class="facebook_icon">
+	        	<img src="./image/4.png" class="wifi_icon"> -->
+	      	</div>
+
+	      	<div class="input-container">
+	        	<img src="./image/1.png" class="search_icon">	
+	        	<input type="text" name="input" id="newsSearchInput" placeholder="Search news">
+	      	</div>
+	      </div>
+	      
+	        
+	    </div>
+	      
+	      <div class="news-feed-navigation" id="mainHeaderMenu">
+	  <!--  <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BD_%D0%94%D0%BE%D1%83" target="_blank">WORLDNEWS</a>
+	  		<a href="https://en.wikipedia.org/wiki/The_Areas_of_My_Expertise" target="_blank">SPORTS</a>
+	  		<a href="http://www.nvidia.com.ua/object/geforce-experience-ru.html" target="_blank">TECH</a>
+	  		<a href="https://www.theatlantic.com/education/" target="_blank">BUSINESS</a>
+	  		<a href="https://en.wikipedia.org/wiki/The_Areas_of_My_Expertise" target="_blank">MOVIES</a>
+	  		<a href="http://www.nvidia.com.ua/object/geforce-experience-ru.html" target="_blank">ENTERTAINMENT</a>
+	  		<a href="https://www.theatlantic.com/education/" target="_blank">CULTURE</a>
+	  		<a href="https://en.wikipedia.org/wiki/The_Areas_of_My_Expertise" target="_blank">BOOKS</a>
+	  		<a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BD_%D0%94%D0%BE%D1%83" target="_blank">CLASSIFIEDS</a> -->
+	      </div>
+
+	    <div class="main-content">
+
+	    	<div class="main-imagine-container" id="main-img">
+	       <!-- <img src="https://wallpaperscraft.ru/image/paren_serfing_volna_sportsmen_voda_27785_3840x2160.jpg"> -->
+	        	<div class="text">
+	        		<p>Slider caption text</p>
+	        	</div> 
+	        </div>
+
+	      	<div class="left-container">
+
+
+            <div class="content-box" id="fromAroundTheWorld">
+	      		<!--		<div class="left-content-header">
+	      				<h4 class="news-title">FROM AROUND THE WORLD</h4>
+	      				<button>MORE</button>
+	      			</div>
+	      			<div class="left-side-content">
+	      				<div class="recent-img">
+	      					<img src="https://www.time-sport.com/media/synolia/slider/image/SLIDER_HOME_1325x1024_12.jpg">
+	      				</div>
+	      				<p class="inner-text"><span>Lorem ipsum dolor sit amet, consectetur</span> adipiscing elit. Maecenas a sapien at lectus pharetra varius. </p>
+                	<div class="left-side-actions">
+                  		<button>READ MORE</button>
+                	</div>
+             		</div>
+	      			<div class="left-side-content">
+	      				<div class="recent-img">
+	      					<img src="http://s.ill.in.ua/i/news/350x252/356/356716.jpg">
+	      				</div>
+	      				<p class="inner-text"><span>Lorem ipsum dolor sit amet, consectetur</span> adipiscing elit. Maecenas a sapien at lectus pharetra varius. </p>
+                	<div class="left-side-actions">
+                  		<button>READ MORE</button>
+                	</div>
+              </div>
+	      			<div class="left-side-content">
+	      				<div class="recent-img">
+	      					<img src="http://grfx.cstv.com/photos/schools/conn/sports/m-hockey/auto_vipgiant_w/12326934.jpeg">
+	      				</div>
+	      				<p class="inner-text"><span>Lorem ipsum dolor sit amet, consectetur</span> adipiscing elit. Maecenas a sapien at lectus pharetra varius. </p>
+                	<div class="left-side-actions">
+                  		<button>READ MORE</button>
+                	</div>
+              </div> -->
+	      	</div>
+
+
+            <div class="content-box" id="latestArticles">
+	      		<!--	<div class="left-content-header">
+	      				<h4 class="news-title">LATEST ARTICLES</h4>
+	      				<button>MORE</button>
+	      			</div>
+	      			<div class="left-side-content">
+	      				<div class="recent-img">
+	      					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnRMXyLhQ9AcfGzOXbnnlpAqarqISUzhBOMJGzTBI5YL9ej-rf">
+	      				</div>
+	      				<p class="inner-text"><span>Lorem ipsum dolor sit amet, consectetur</span> adipiscing elit. Maecenas a sapien at lectus pharetra varius. </p>
+                	<div class="left-side-actions">
+                  		<button>READ MORE</button>
+                	</div>
+              </div>
+	      			<div class="left-side-content">
+	      				<div class="recent-img">
+	      					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvx4YLbthMz-ZHF5w2sWLk85MEFM6V8ATcaFZjfjyYlgWwZvP_w">
+	      				</div>
+	      				<p class="inner-text"><span>Lorem ipsum dolor sit amet, consectetur</span> adipiscing elit. Maecenas a sapien at lectus pharetra varius. </p>
+                	<div class="left-side-actions">
+                  		<button>READ MORE</button>
+                	</div>
+              </div>
+	      			<div class="left-side-content">
+	      				<div class="recent-img">
+	      					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx701Y4cD1TfwVJ0KTNod49D7Mw4zFFwaKcG8tMPA355QyB_1eOg">
+	      				</div>
+	      				<p class="inner-text"><span>Lorem ipsum dolor sit amet, consectetur</span> adipiscing elit. Maecenas a sapien at lectus pharetra varius. </p>
+                	<div class="left-side-actions">
+                  		<button>READ MORE</button>
+                	</div>
+              	</div> -->
+	      		</div>
+
+
+	      		<div class="content-box" id="gallery">
+	      		<!--	<div class="left-content-header">
+	      				<h4 class="news-title">GALLERY</h4>
+	      				<button>MORE</button>
+	      			</div>
+	      			<div class="left-side-content">
+	      				<div class="recent-img">
+	      					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnRMXyLhQ9AcfGzOXbnnlpAqarqISUzhBOMJGzTBI5YL9ej-rf">
+	      				</div>
+	   				</div>
+	   				<div class="left-side-content">
+	      				<div class="recent-img">
+	      					<img src="https://www.time-sport.com/media/synolia/slider/image/SLIDER_HOME_1325x1024_12.jpg">
+	      				</div>	      				
+	   				</div>
+	   				<div class="left-side-content">
+	      				<div class="recent-img">
+	      					<img src="http://s.ill.in.ua/i/news/350x252/356/356716.jpg">
+	      				</div>	      				
+	   				</div>
+	   				<div class="left-side-content">
+	      				<div class="recent-img">
+	      					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvx4YLbthMz-ZHF5w2sWLk85MEFM6V8ATcaFZjfjyYlgWwZvP_w">
+	      				</div>	      				
+	   				</div>
+	   				<div class="left-side-content">
+	      				<div class="recent-img">
+	      					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx701Y4cD1TfwVJ0KTNod49D7Mw4zFFwaKcG8tMPA355QyB_1eOg">
+	      				</div>
+	   				</div>
+	   				<div class="left-side-content">
+	      				<div class="recent-img">
+	      					<img src="http://grfx.cstv.com/photos/schools/conn/sports/m-hockey/auto_vipgiant_w/12326934.jpeg">
+	      				</div>
+	   				</div> -->
+
+	   			</div>
+
+
+	   			<div class="content-box" id="techNews">
+	      		<!--	<div class="left-content-header">
+	      				<h4 class="news-title">TECH NEWS</h4>
+	      				<button>MORE</button>
+	      			</div>
+	      			<div class="left-side-content-container">	      
+	      				<p class="inner-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> Maecenas a sapien at lectus pharetra varius. Quisque posuere at urna vel suscipit.  </p>
+	      				<p class="comments"> by <span>John Doe</span> | 29 comments</p>                	
+              		</div>
+              		<div class="left-side-content-container">	      
+	      				<p class="inner-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> Maecenas a sapien at lectus pharetra varius. Quisque posuere at urna vel suscipit.  </p>
+	      				<p class="comments"> by <span>John Doe</span> | 29 comments</p>                   	
+              		</div>	   
+              		<div class="left-side-content-container">	      
+	      				<p class="inner-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> Maecenas a sapien at lectus pharetra varius.Quisque posuere at urna vel suscipit. </p>
+	      				<p class="comments"> by <span>John Doe</span> | 29 comments</p>                   	
+              		</div>	   
+              		<div class="left-side-content-container">	      
+	      				<p class="inner-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> Maecenas a sapien at lectus pharetra varius. Quisque posuere at urna vel suscipit. </p>
+	      				<p class="comments"> by <span>John Doe</span> | 29 comments</p>                   	
+              		</div> -->	   	   
+              	</div>
+        	  
+  		</div>
+
+
+		<div class="right-container">
+          	
+      		<div class="central-part-content-container">
+      			<div class="central-part-content" id="deskNews">
+	      		<!--	<div class="central-part-header">
+	      				<h4 class="central-title">FROM THE DESK</h4>
+	      			</div>
+	      			<div class="central-text-box">
+	      				<p class="central-inner-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> Maecenas a sapien at lectus pharetra varius. Quisque posuere at urna vel suscipit. </p>
+	      				<div class="time-btn">
+		      				<button class="btn">READ MORE</button>
+		      				<span class="time">3 hours ago </span>
+		      			</div>        
+	      			</div>
+	      			<div class="central-text-box">
+	      				<p class="central-inner-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> Maecenas a sapien at lectus pharetra varius. Quisque posuere at urna vel suscipit. </p>
+	      				<div class="time-btn">
+		      				<button class="btn">READ MORE</button>
+		      				<span class="time">3 hours ago </span>
+		      			</div>             
+	      			</div>
+	      			<div class="central-text-box" id="Y">
+	      				<p class="central-inner-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> Maecenas a sapien at lectus pharetra varius. Quisque posuere at urna vel suscipit. </p>
+	      				<div class="time-btn">
+		      				<button class="btn">READ MORE</button>
+		      				<span class="time">3 hours ago </span>
+		      			</div>   
+	      				<button class="more-btn">MORE</button>           
+	      			</div> -->
+	      		</div>
+
+	      		<div class="central-part-gallery" id="editorialNews">
+	      	<!--	<div class="central-part-header">
+	      				<h4 class="central-title">EDITORIAL</h4>
+	      			</div>
+	      			<div class="gallery-content">
+	      				<div class="gal-img">
+		      				<img src="https://www.time-sport.com/media/synolia/slider/image/SLIDER_HOME_1325x1024_12.jpg">
+	      				</div>
+	      				<div class="sub-text">
+	      					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	      				</div>
+	      			</div>
+	      			<div class="gallery-content">
+	      				<div class="gal-img">
+		      				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvx4YLbthMz-ZHF5w2sWLk85MEFM6V8ATcaFZjfjyYlgWwZvP_w">		      			
+	      				</div>
+	      				<div class="sub-text">
+	      					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	      				</div>
+	      			</div>
+	      			<div class="gallery-content">
+	      				<div class="gal-img">
+		      				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx701Y4cD1TfwVJ0KTNod49D7Mw4zFFwaKcG8tMPA355QyB_1eOg">		      				
+	      				</div>
+	      				<div class="sub-text">
+	      					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	      				</div>
+	      			</div>
+	      			<div class="gallery-content">
+	      				<div class="gal-img">
+		      				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnRMXyLhQ9AcfGzOXbnnlpAqarqISUzhBOMJGzTBI5YL9ej-rf">		      				
+	      				</div>
+	      				<div class="sub-text">
+	      					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	      				</div>
+	      			</div> -->
+	      		</div> 
+      		</div>
+
+      		<div class="right-part-content-container">
+	      		<div class="right-part-content">
+	      			<div class="adv">
+	      				<img src="./image/6.png">
+	      			</div>
+	      			<div class="sign-up-container">
+	      				<div class="sign-up-content">
+	      				<span class="sign-up-header">SIGN UP FOR NEWSLETTER</span>
+	      				<p class="sign-up-text">Sign up to receive our free newsletters!</p>
+	      				<div class="sign-up-input-container">
+	      					<input type="text" name="input" placeholder="Name">
+	      				</div>
+	      				<div class="sign-up-input-container">
+	      					<input type="text" name="input" placeholder="Email Address">
+	      				</div>
+	      				<button class="submit-btn">SUBMIT</button> 
+	      				<p class="input-text">We do not spam. We value your privacy!</p>
+	      				</div>
+	      			</div>
+	      			<div class="popular-container" id="popularContainer">
+	      			<!--	<div class="popular-header">
+	      					<span>POPULAR</span>
+	      				</div>
+	      				<div class="popular-text-box">
+	      					<span class="current-time">Sept 24th 2045</span>
+	      					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+	      					<button>READ MORE</button>
+	      				</div>
+	      				<div class="popular-text-box">
+	      					<span class="current-time">Sept 24th 2045</span>
+	      					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+	      					<button>READ MORE</button>
+	      				</div>
+	      				<div class="popular-text-box">
+	      					<span class="current-time">Sept 24th 2045</span>
+	      					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+	      					<button>READ MORE</button>
+	      				</div>
+	      				<div class="popular-text-box">
+	      					<span class="current-time">Sept 24th 2045</span>
+	      					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+	      					<button>READ MORE</button>
+	      				</div>
+	      				<div class="popular-text-box" id="X">
+	      					<span class="current-time">Sept 24th 2045</span>
+	      					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+	      					<button>READ MORE</button>
+	      				</div> -->
+	      				<div class="pop-btn">
+	      					<button id="popular-btn">MORE</button>
+	      				</div>	      				
+	      			</div>
+	      			<div class="adv-2">
+	      				<img src="./image/6.png">
+	      			</div>
+	      			<div class="add-container">
+	      				<div class="add-header">
+	      					<h4>ADD</h4>
+	      				</div>
+	      				<div class="adv-3">
+	      					<img src="./image/7.png">
+	      				</div>
+	      			</div>
+	      		</div>
+      		</div>
+
+       	</div>
+      
+	</div>
+
+	<div class="footer">
+
+		<div class="underline">
+			<div class="adv-4">
+				<img src="./image/8.png">
+			</div>
+		</div>
+
+		<div class="footer-menu" id="navFooterMenu">
+	  <!--	<a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BD_%D0%94%D0%BE%D1%83" target="_blank">world news</a>
+			<a href="https://en.wikipedia.org/wiki/The_Areas_of_My_Expertise" target="_blank">sports</a>
+			<a href="http://www.nvidia.com.ua/object/geforce-experience-ru.html" target="_blank">tech</a>
+			<a href="https://www.theatlantic.com/education/" target="_blank">business</a>
+			<a href="https://en.wikipedia.org/wiki/The_Areas_of_My_Expertise" target="_blank">Movies</a>
+			<a href="http://www.nvidia.com.ua/object/geforce-experience-ru.html" target="_blank">entertainment</a>
+			<a href="https://www.theatlantic.com/education/" target="_blank">culture</a>
+			<a href="https://en.wikipedia.org/wiki/The_Areas_of_My_Expertise" target="_blank">Books</a>
+			<a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BD_%D0%94%D0%BE%D1%83" target="_blank">classifieds</a>
+			<a href="https://www.theatlantic.com/education/" target="_blank">biogs</a> -->
+		</div>
+
+	    <div class="copyright-trademarks">
+	    	<p id="copy">Copyright &copy; 2045 The News Reporter Inc. All rights reserved | Design by Rafi MD</p>
+	    	<p id="trade-mark">Trade marks and images used in the design are the copyright of their respective owners and are used for demo purposes only.</p>
+	    </div>	 
+
+    </div>	
+
+</body>
+</html>
+
+
